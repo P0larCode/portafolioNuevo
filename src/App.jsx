@@ -1,3 +1,4 @@
+import { Hero } from './components/Hero'
 import {ThemeToggle} from './components/ThemeToggle'
 import {useTheme} from './hooks/useTheme'
 
@@ -8,7 +9,7 @@ export default function App(){
   return (
   <main>
     <ThemeToggle theme={theme} onToggle={toggleTheme} />
-    <h1>Hola, soy César</h1>
+    <Hero />
   </main>
   )
 }
