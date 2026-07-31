@@ -1,0 +1,32 @@
+/*paleta clara*/
+:root,
+:root[data-theme="light"] {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --ink: #16181d;
+  --muted: #5f6672;
+  --line: #e4e2dc;
+  --accent: #0f4c81;
+  --accent-contrast: #ffffff;
+  --accent-soft: #eaf1f8;
+}
+
+/* Paleta oscura */
+:root[data-theme="dark"] {
+  --bg: #0e1116;
+  --surface: #141920;
+  --ink: #edeef0;
+  --muted: #9aa3b2;
+  --line: #232a35;
+  --accent: #7fb4e8;
+  --accent-contrast: #0e1116;
+  --accent-soft: rgba(127, 180, 232, 0.08);
+}
+
+/* Tipografía y medidas: iguales en ambos temas */
+:root {
+  --sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --max-width: 1080px;
+  --gutter: 6vw;
+}

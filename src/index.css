@@ -1,11 +1,15 @@
+@import "./styles/theme.css";
+
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
-  font-family: "Segoe UI", system-ui, sans-serif;
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
   line-height: 1.65;
 }
