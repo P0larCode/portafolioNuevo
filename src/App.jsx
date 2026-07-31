@@ -1,15 +1,16 @@
 import { Hero } from './components/Hero'
-import {ThemeToggle} from './components/ThemeToggle'
-import {useTheme} from './hooks/useTheme'
+import { Navbar } from './components/Navbar'
+import { useTheme } from './hooks/useTheme'
 
-export default function App(){
-
-  const {theme, toggleTheme} = useTheme()
+export default function App() {
+  const { theme, toggleTheme } = useTheme()
 
   return (
-  <main>
-    <ThemeToggle theme={theme} onToggle={toggleTheme} />
-    <Hero />
-  </main>
+    <>
+      <Navbar theme={theme} onToggleTheme={toggleTheme} />
+      <main>
+        <Hero />
+      </main>
+    </>
   )
 }

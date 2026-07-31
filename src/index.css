@@ -1,6 +1,11 @@
 @import "./styles/theme.css";
 @import "./styles/app.css";
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top:5rem;
+}
+
 *,
 *::before,
 *::after {

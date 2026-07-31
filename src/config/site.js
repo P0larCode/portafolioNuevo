@@ -13,3 +13,10 @@ export const hero = {
     'para empresas que quieren digitalizar su operación. De la idea al producto funcionando.',
   cvUrl: '#',
 }
+
+
+export const navLinks = [
+    {label: 'Proyectos', href: '#proyectos'},
+    {label: 'Servicios', href: '#servicios'},
+    {label: 'Sobre mí', href: '#sobre-mi'},
+]
