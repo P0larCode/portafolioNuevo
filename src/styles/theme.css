@@ -9,6 +9,12 @@
   --accent: #0f4c81;
   --accent-contrast: #ffffff;
   --accent-soft: #eaf1f8;
+
+  --tone-1: linear-gradient(135deg, #eaf1f8, #dce9f5);
+  --tone-2: linear-gradient(135deg, #f6efe6, #f0e3d0);
+  --tone-3: linear-gradient(135deg, #e9f4ee, #d8ecdf);
+  --tone-4: linear-gradient(135deg, #f4ecf4, #e9dcec);
+
 }
 
 /* Paleta oscura */
@@ -21,6 +27,12 @@
   --accent: #7fb4e8;
   --accent-contrast: #0e1116;
   --accent-soft: rgba(127, 180, 232, 0.08);
+
+  --tone-1: linear-gradient(135deg, #14212f, #1a3049);
+  --tone-2: linear-gradient(135deg, #241d2e, #352843);
+  --tone-3: linear-gradient(135deg, #14261f, #1d3a2e);
+  --tone-4: linear-gradient(135deg, #2b1e1a, #423025);
+
 }
 
 /* Tipografía y medidas: iguales en ambos temas */
