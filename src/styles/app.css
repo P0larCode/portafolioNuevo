@@ -294,3 +294,50 @@
     order: 0;
   }
 }
+
+/* ---------- Servicios ---------- */
+.section--filled {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.service {
+  padding: 2.2rem 1.8rem;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin-right: -1px;
+  margin-bottom: -1px;
+  transition: background 0.2s;
+}
+
+.service:hover {
+  background: var(--accent-soft);
+}
+
+.service__numeral {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.service__title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  margin: 0.7rem 0 0.5rem;
+}
+
+.service__description {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0;
+}

@@ -25,11 +25,13 @@ export const projects = [
   {
     id: 'inventario',
     title: 'Sistema de inventario',
-    descripcion: 'Control de stock con alertas de existencias minimas y reportes en tiempo real' + 'para una distribuidora. Redujo pérdidas de inventario en un 30%',
+        description:
+      'Control de stock con alertas de existencias mínimas y reportes en tiempo real ' +
+      'para una distribuidora. Redujo pérdidas de inventario en un 30%.',
     tags: ['React', 'Node.js', 'MySQL'],
-    liveURL:'',
-    codeURL:'',
-    icon:'❤️',
+    liveUrl:'',
+    codeUrl:'',
+    icon:'🚀',
     tone: 1,
   },
    {
@@ -41,7 +43,7 @@ export const projects = [
     tags: ['Electron', 'SQLite', 'JavaScript'],
     liveUrl: '',
     codeUrl: '',
-    icon: '❤️',
+    icon: '🚀',
     tone: 2,
   },
 ]
@@ -49,4 +51,37 @@ export const projects = [
 export const projectsSection = {
   title: 'Proyectos seleccionados',
   numeral: '01 — Portafolio',
+}
+
+
+export const services = [
+  {
+    numeral: 'i.',
+    title: 'Sistemas a la medida',
+    description:
+      'Inventarios, puntos de venta, gestión de clientes: software diseñado para tu operación real.',
+  },
+  {
+    numeral: 'ii.',
+    title: 'Desarrollo web',
+    description:
+      'Sitios y aplicaciones web rápidas, modernas y adaptadas a cualquier dispositivo.',
+  },
+  {
+    numeral: 'iii.',
+    title: 'Automatización',
+    description:
+      'Reportes automáticos, integraciones entre sistemas y eliminación de tareas repetitivas.',
+  },
+  {
+    numeral: 'iv.',
+    title: 'Soporte y mejora',
+    description:
+      'Mantenimiento y evolución de sistemas existentes para que nunca se detengan.',
+  },
+]
+
+export const servicesSection = {
+  title: 'Servicios para empresas',
+  numeral: '02 — Qué ofrezco',
 }
