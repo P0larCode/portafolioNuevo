@@ -85,3 +85,35 @@ export const servicesSection = {
   title: 'Servicios para empresas',
   numeral: '02 — Qué ofrezco',
 }
+
+export const skills = [
+  'Javascript',
+  'React',
+  'Node.js',
+  'Python',
+  'MySQL',
+  'PostgreSQL',
+  'Git',
+  'Docker',
+  'HTML/CSS',
+]
+  
+
+export const skillsSection = {
+  title: 'Tecnologias',
+  numeral: '03 - Stack',
+}
+
+export const about = {
+  title: 'Sobre mi',
+  numeral: '04-La persona',
+  photo: '',
+  quote: 'Un buen sistema no se nota: simplemente hace que todo funcione.',
+  paragraphs: [
+    'Soy **César Padilla**, desarrollador de sistemas enfocado en crear software que ' +
+      'resuelve problemas reales de negocio. Antes de escribir una línea de código, me ' +
+      'interesa entender cómo opera cada empresa.',
+    'Trabajo con empresas y emprendedores que buscan **digitalizar sus procesos**, y ' +
+      'también estoy abierto a **oportunidades de contratación** en equipos de desarrollo.',
+  ],
+}

@@ -3,6 +3,8 @@ import { Navbar } from './components/Navbar'
 import { Projects } from './components/Projects'
 import { useTheme } from './hooks/useTheme'
 import { Services } from './components/Services'
+import { About } from './components/About'
+import {Skills} from './components/Skills'
 
 export default function App() {
   const { theme, toggleTheme } = useTheme()
@@ -14,6 +16,8 @@ export default function App() {
         <Hero />
         <Projects />
         <Services />
+        <Skills/>
+        <About/>
       </main>
     </>
   )
