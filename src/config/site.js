@@ -117,3 +117,19 @@ export const about = {
       'también estoy abierto a **oportunidades de contratación** en equipos de desarrollo.',
   ],
 }
+
+
+export const contact = {
+  kicker: 'contacto',
+  title: '¿Tienes un proyecto en mente?',
+  description:
+    'Escribeme y te respondo en menos de 24 horas. Tambien puedes descargar mi CV' + 
+      'o revisar mi trabajo en GitHub.',
+  email: 'fabianpad690@gmail.com',
+}
+
+export const socials = [
+  {label: 'GitHub', url: 'https://github.com/p0larcode'},
+  {label: 'LinkedIn', url: ''},
+  {label: 'Whatsapp', url: ''},
+]

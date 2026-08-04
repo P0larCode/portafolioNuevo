@@ -15,6 +15,12 @@
   --tone-3: linear-gradient(135deg, #e9f4ee, #d8ecdf);
   --tone-4: linear-gradient(135deg, #f4ecf4, #e9dcec);
 
+  --contact-bg: #16181d;
+  --contact-ink: #ffffff;
+  --contact-muted: #a8adb8;
+  --contact-accent: #8fb8e0;
+  --contact-line: #2b303a;
+
 }
 
 /* Paleta oscura */
@@ -32,6 +38,12 @@
   --tone-2: linear-gradient(135deg, #241d2e, #352843);
   --tone-3: linear-gradient(135deg, #14261f, #1d3a2e);
   --tone-4: linear-gradient(135deg, #2b1e1a, #423025);
+
+  --contact-bg: #0a0d12;
+  --contact-ink: var(--ink);
+  --contact-muted: var(--muted);
+  --contact-accent: var(--accent);
+  --contact-line: var(--line);
 
 }
 

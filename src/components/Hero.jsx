@@ -12,7 +12,7 @@ export function Hero() {
 
         <p className="hero__description">{hero.description}</p>
 
-        <div className="hero__actions">
+        <div className="actions">
           <a className="btn btn--solid" href="#proyectos">
             Ver proyectos ↓
           </a>

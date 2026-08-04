@@ -61,7 +61,7 @@
   max-width: 52ch;
 }
 
-.hero__actions {
+.actions {
   margin-top: 2.6rem;
   display: flex;
   gap: 1rem;
@@ -425,4 +425,90 @@
   .about__portrait {
     max-width: 220px;
   }
+}
+
+/* ---------- Contacto ---------- */
+.contact {
+  background: var(--contact-bg);
+  color: var(--contact-ink);
+  padding: 5rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.contact .kicker {
+  color: var(--contact-accent);
+}
+
+.contact__title {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: var(--contact-ink);
+  max-width: 18ch;
+  margin: 0;
+}
+
+.contact__description {
+  color: var(--contact-muted);
+  max-width: 50ch;
+  margin: 1.4rem 0 2.4rem;
+}
+
+.contact .btn--solid {
+  background: var(--contact-ink);
+  color: var(--contact-bg);
+}
+
+.contact .btn--outline {
+  border-color: var(--contact-line);
+  color: var(--contact-ink);
+}
+
+.contact .btn--outline:hover {
+  border-color: var(--contact-accent);
+  color: var(--contact-accent);
+}
+
+.contact__email {
+  display: inline-block;
+  margin-top: 3rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--contact-accent);
+  text-decoration: none;
+}
+
+.contact__email:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Pie ---------- */
+.footer {
+  background: var(--contact-bg);
+  color: var(--contact-muted);
+  padding: 1.6rem 0;
+  font-size: 0.82rem;
+  border-top: 1px solid var(--contact-line);
+}
+
+.footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer a {
+  color: var(--contact-muted);
+  text-decoration: none;
+  margin-left: 1.4rem;
+}
+
+.footer a:hover {
+  color: var(--contact-accent);
 }
