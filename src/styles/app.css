@@ -512,3 +512,56 @@
 .footer a:hover {
   color: var(--contact-accent);
 }
+
+/* ---------- Menú móvil ---------- */
+.nav__burger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.nav__burger:hover {
+  border-color: var(--accent);
+}
+
+.nav__panel {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem var(--gutter) 1.2rem;
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.nav__panel a {
+  display: block;
+  padding: 0.85rem 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav__panel a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .nav__burger {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 721px) {
+  .nav__panel {
+    display: none;
+  }
+}

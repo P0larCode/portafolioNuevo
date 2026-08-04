@@ -6,7 +6,7 @@ export function Contact (){
             <div className="container">
                 <p className="kicker">{contact.kicker}</p>
                 <h2 className="contact__title">{contact.title}</h2>
-                <p calssName="contact__description">{contact.description}</p>
+                <p className="contact__description">{contact.description}</p>
 
 
                 <div className="actions">
