@@ -107,7 +107,7 @@ export const skillsSection = {
 export const about = {
   title: 'Sobre mi',
   numeral: '04-La persona',
-  photo: '',
+  photo: '/public/perfil.jpg',
   quote: 'Un buen sistema no se nota: simplemente hace que todo funcione.',
   paragraphs: [
     'Soy **César Padilla**, desarrollador de sistemas enfocado en crear software que ' +
