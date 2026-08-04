@@ -22,27 +22,47 @@ export const navLinks = [
 ]
 
 export const projects = [
-  {
-    id: 'inventario',
-    title: 'Sistema de inventario',
-        description:
-      'Control de stock con alertas de existencias mínimas y reportes en tiempo real ' +
-      'para una distribuidora. Redujo pérdidas de inventario en un 30%.',
-    tags: ['React', 'Node.js', 'MySQL'],
-    liveUrl:'',
-    codeUrl:'',
-    icon:'🚀',
+  
+    {
+    id: 'loma-arquitectura',
+    title: 'Loma Arquitectura',
+    description:
+      'Sitio institucional para un despacho de arquitectura, con portafolio de obras ' +
+      'y formulario de contacto. El estudio actualiza sus proyectos sin depender de un desarrollador.',
+    tags: ['CodeIgniter', 'PHP', 'HTML/CSS', ''],
+    liveUrl: 'https://loma-arquitectura.com/',
+    codeUrl: '',
+    image: '/lomaarquitectura.png',
+    icon: '🚀',
     tone: 1,
   },
-   {
+
+  {
     id: 'pos',
     title: 'Punto de Venta',
     description:
-      'Sistema de ventas con facturación, corte de caja y estadísticas diarias. ' +
+      'Punto de venta en la nube para negocios de comida. Los meseros toman pedidos desde el celular, '+
+      'la cocina los ve al instante y la caja cobra e imprime el ticket. Controla inventario, '+
+      'arma tu lista de compras y pronostica cuánto comprar según quincenas y fechas especiales. '+
       'Funciona sin conexión y sincroniza al recuperar internet.',
-    tags: ['Electron', 'SQLite', 'JavaScript'],
-    liveUrl: '',
+    tags: ['Node.js', 'Express', 'SQLite', 'PWA', ' VPS/Nginx'],
+    liveUrl: 'https://ordenveloz.com',
     codeUrl: '',
+    image: '/ordenveloz.png',
+    icon: '🚀',
+    tone: 2,
+  },
+
+  {
+    id: 'Tu Escalafon',
+    title: 'Tu Escalafon',
+    description:
+      'Plataforma PWA de estudio por suscripción para trabajadores del IMSS que preparan su examen de ascenso. '+
+      'Lecciones, cuestionarios y simulacros cronometrados basados en la guía oficial, con acceso sin conexión.',
+    tags: ['Node.js', 'Express', 'SQLite', 'PWA', ' VPS/Nginx'],
+    liveUrl: 'https://tuescalafon.com',
+    codeUrl: '',
+    image: '/tuescalafon.png',
     icon: '🚀',
     tone: 2,
   },
@@ -107,7 +127,7 @@ export const skillsSection = {
 export const about = {
   title: 'Sobre mi',
   numeral: '04-La persona',
-  photo: '/public/perfil.jpg',
+  photo: '/perfil.jpg',
   quote: 'Un buen sistema no se nota: simplemente hace que todo funcione.',
   paragraphs: [
     'Soy **César Padilla**, desarrollador de sistemas enfocado en crear software que ' +

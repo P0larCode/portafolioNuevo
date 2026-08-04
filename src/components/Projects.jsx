@@ -11,8 +11,16 @@ export function Projects() {
 
         {projects.map((project, index) => (
           <article className="project" key={project.id}>
-            <div className={`project__visual project__visual--${project.tone}`}>
-              {project.icon}
+                        <div className={`project__visual project__visual--${project.tone}`}>
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={`Captura de ${project.title}`}
+                  loading="lazy"
+                />
+              ) : (
+                project.icon
+              )}
             </div>
 
             <div>
